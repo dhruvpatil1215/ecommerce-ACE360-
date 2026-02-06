@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Addina – Furniture Store</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <span>📞 +380961381876</span>
+    <span>TAKE CARE OF YOUR Health 25% OFF USE CODE <b>DOFIX03</b></span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo"><img src="assets\imgs\furniture\logo\logo.svg" alt="logo"></div>
+
+    <nav class="menu">
+      <div class="dropdown">
+        <a href="#" class="drop-btn" tabindex="0">Home</a>
+        <div class="dropdown-menu">
+          <a href="#">Pharmacy Store</a>
+          <a href="#">Furniture Store</a>
+          <a href="#">Grocery Store</a>
+        </div>
+      </div>
+
+      <a href="#">About</a>
+      <a href="#">Shop</a>
+      <a href="#">Pages</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="nav-icons">
+      🔍 ❤️ 🛒 <span class="hamburger" id="openSidebar">☰</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <span class="badge">NEW ARRIVAL...</span>
+      <h1>Elevate <br>Your Home Aesthetics</h1>
+      <p>
+        A furniture e-commerce company operates in the digital space,
+        offering a wide range of furniture products.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn primary">BUY NOW</button>
+        <button class="btn outline">VIEW DETAILS</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/imgs/furniture/banner/chair1.png" alt="Chair">
+    </div>
+  </section>
+
+  <section class="features">
+
+    <div class="feature">
+      <i class="fa-solid fa-truck"></i>
+      <h4>Free Delivery</h4>
+      <p>Free shipping on all order</p>
+    </div>
+
+    <div class="feature">
+      <i class="fa-solid fa-wallet"></i>
+      <h4>Money Return</h4>
+      <p>Back guarantee under 7 day</p>
+    </div>
+
+    <div class="feature">
+      <i class="fa-solid fa-headset"></i>
+      <h4>Online Support 24/7</h4>
+      <p>Support online 24 hours a day</p>
+    </div>
+
+    <div class="feature">
+      <i class="fa-solid fa-shield"></i>
+      <h4>Reliable</h4>
+      <p>Trusted by 1000+ brands</p>
+    </div>
+
+  </section>
+  <section class="promo">
+
+    <div class="promo-card bg-image" style="background-image:url('assets/imgs/furniture/product/off-01.png')">
+
+      <div class="promo-text">
+        <span>GET 30% OFF</span>
+        <h2 class="text-capitalize">Wicker Hanging<br>Chairs</h2>
+
+        <a href="product-details.html">
+          <button>BUY NOW ›</button>
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="promo-card bg-image" style="background-image:url('assets/imgs/furniture/product/off-02.png')">
+
+      <div class="promo-text">
+        <span>GET 15% OFF</span>
+        <h2 class="text-capitalize">Brasslegged Armchair</h2>
+
+        <a href="product-details.html">
+          <button>BUY NOW</button>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>ADDINA</h2>
+      <button class="close-btn" id="closeSidebar">✕</button>
+    </div>
+
+    <div class="sidebar-search">
+      <p>What are you searching for?</p>
+      <input type="text" placeholder="Search...">
+    </div>
+
+    <div class="sidebar-contact">
+      <h3>Contact Info</h3>
+      <p>📍 12/A, Mirnada City Tower, NYC</p>
+      <p>📞 +088889797697</p>
+      <p>✉ support@mail.com</p>
+    </div>
+  </div>
+  <section class="featured">
+
+<h2 class="featured-title">Featured Product</h2>
+
+<div class="featured-wrapper">
+
+<button class="nav prev">‹</button>
+
+<div class="featured-grid">
+
+<!-- PRODUCT CARD -->
+<div class="product-card">
+
+<div class="product-img">
+<img src="assets/imgs/furniture/product/product1.png">
+
+<div class="product-overlay">
+<span><i class="far fa-eye"></i></span>
+<span><i class="fas fa-shopping-bag"></i></span>
+<span><i class="far fa-heart"></i></span>
+</div>
+</div>
+
+<h4>Brasslegged Armchair</h4>
+
+<div class="stars">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+
+<p class="price">USD 150.00</p>
+
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card">
+
+<span class="badge-sale">10% Off</span>
+
+<div class="product-img">
+<img src="assets/imgs/furniture/product/product2.png">
+
+<div class="product-overlay">
+<span><i class="far fa-eye"></i></span>
+<span><i class="fas fa-shopping-bag"></i></span>
+<span><i class="far fa-heart"></i></span>
+</div>
+</div>
+
+<h4>Leather Chair</h4>
+
+<div class="stars">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+
+<p class="price">USD 200.00</p>
+
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card">
+
+<div class="product-img">
+<img src="assets/imgs/furniture/product/product3.png">
+
+<div class="product-overlay">
+<span><i class="far fa-eye"></i></span>
+<span><i class="fas fa-shopping-bag"></i></span>
+<span><i class="far fa-heart"></i></span>
+</div>
+</div>
+
+<h4>Chair Pillow</h4>
+
+<div class="stars">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+
+<p class="price">USD 49.00</p>
+
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card">
+
+<span class="badge-sale">10% Off</span>
+
+<div class="product-img">
+<img src="assets/imgs/furniture/product/product4.png">
+
+<div class="product-overlay">
+<span><i class="far fa-eye"></i></span>
+<span><i class="fas fa-shopping-bag"></i></span>
+<span><i class="far fa-heart"></i></span>
+</div>
+</div>
+
+<h4>Alexander Roll Arm Sofa</h4>
+
+<div class="stars">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+
+<p class="price">USD 150.00</p>
+
+</div>
+
+</div>
+
+<button class="nav next">›</button>
+
+</div>
+
+</section>
+
+<section class="hotdeal">
+  <div class="hotdeal-inner">
+
+    <div class="hotdeal-left">
+
+      <div class="deal-box">
+        <span>HOT DEAL FURNITURE</span>
+
+        <h2>Live Furniture<br>Your Love</h2>
+
+        <a href="#" class="deal-btn">BUY NOW ›</a>
+      </div>
+
+    </div>
+
+    <div class="hotdeal-right">
+
+      <div class="room-img">
+
+        <img src="assets/imgs/furniture/rating/bg-image.png">
+
+        <!-- DOT A - Table -->
+        <div class="hotspot" style="top:65%;left:45%;">
+          <div class="hotspot-content">
+            <h4>Dining Table</h4>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <p>USD 190.00</p>
+          </div>
+        </div>
+
+        <!-- DOT B - Sofa -->
+        <div class="hotspot" style="top:35%;left:75%;">
+          <div class="hotspot-content">
+            <h4>Fabric Sofa</h4>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <p>USD 480.00</p>
+          </div>
+        </div>
+
+        <!-- DOT C - Lamp -->
+        <div class="hotspot" style="top:60%;left:70%;">
+          <div class="hotspot-content">
+            <h4>Decor Lamp</h4>
+
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <p>USD 95.00</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+</div>
+  </section>
+<section class="trendy">
+
+<div class="trendy-header">
+
+  <div class="trendy-left">
+    <span class="month">THIS MONTH</span>
+    <h2>Trendy Collection</h2>
+  </div>
+
+  <div class="trendy-tabs">
+    <a class="active" href="#">All Collection</a>
+    <a href="#">New In</a>
+    <a href="#">Top Rated</a>
+    <a href="#">Tensing Items</a>
+  </div>
+
+</div>
+
+
+
+<div class="trendy-grid">
+
+<!-- ITEM -->
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product1.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>Stylish Grey Chair</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$150.00</p>
+
+</div>
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product3.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>seater gray sofa</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$300.00</p>
+
+</div>
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product4.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>wooden chair</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$130.00</p>
+
+</div>
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product2.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>Chair pillow</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$190.00</p>
+
+</div>
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product5.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>Alexander sofar</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$150.00</p>
+
+</div>
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product6.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>Stylish Grey Chair</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$150.00</p>
+
+</div>
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product7.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>Stylish Grey Chair</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$150.00</p>
+
+</div>
+<div class="trendy-card">
+
+<span class="sale">10% Off</span>
+
+<div class="trendy-img">
+<img src="assets/imgs/furniture/product/product8.png">
+
+<div class="hover-icons">
+<i class="far fa-eye"></i>
+<i class="fas fa-shopping-bag"></i>
+<i class="far fa-heart"></i>
+</div>
+
+</div>
+
+<h4>Stylish Grey Chair</h4>
+
+<div class="stars">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+</div>
+
+<p>$150.00</p>
+
+</div>
+
+<!-- COPY THIS CARD 7 TIMES & CHANGE IMAGE/TITLE/PRICE -->
+
+</div>
+
+</section>
+<section class="deal-section">
+
+  <div class="deal-wrapper">
+
+    <!-- LEFT DEAL -->
+    <div class="deal-card left">
+      <div class="deal-content">
+        <span>HOT DEAL FURNITURE</span>
+
+        <h2>Furniture Limit Offer</h2>
+
+        <h1>30% Off</h1>
+
+        <a href="#">BUY NOW ›</a>
+      </div>
+    </div>
+
+    <!-- RIGHT DEAL -->
+    <div class="deal-card right">
+
+      <div class="deal-content">
+
+        <span>HOT DEAL FURNITURE</span>
+
+        <h2>Deals Of The Week</h2>
+
+        <div class="deal-timer">
+          <div><h3 id="days">00</h3><p>DAYS</p></div>
+          <div><h3 id="hours">00</h3><p>HRS</p></div>
+          <div><h3 id="mins">00</h3><p>MINS</p></div>
+          <div><h3 id="secs">00</h3><p>SECS</p></div>
+        </div>
+
+        <a href="#">BUY NOW ›</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<section class="testimonials">
+
+  <span class="testi-tag">TESTIMONIALS</span>
+  <h2>Client Feedback</h2>
+
+  <div class="testi-wrapper">
+
+    <!-- CARD 1 -->
+    <div class="testi-card">
+      <div class="stars">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+
+      <h4>Jerome Bell</h4>
+      <small>Web Designer</small>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur the adipiscing elit vestibulum viverra eget felis interdum fusce odio lacus.
+      </p>
+
+      <span class="quote">”</span>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="testi-card">
+      <div class="stars">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+
+      <h4>Annette Black</h4>
+      <small>Dog Trainer</small>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur the adipiscing elit vestibulum viverra eget felis interdum fusce odio lacus.
+      </p>
+
+      <span class="quote">”</span>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="testi-card">
+      <div class="stars">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+
+      <h4>Ralph Edwards</h4>
+      <small>UI/UX Designer</small>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur the adipiscing elit vestibulum viverra eget felis interdum fusce odio lacus.
+      </p>
+
+      <span class="quote">”</span>
+    </div>
+
+  </div>
+
+  <!-- arrows -->
+  <div class="testi-nav">
+    <button>←</button>
+    <button>→</button>
+  </div>
+
+</section>
+
+<section class="best-sellers">
+
+  <span class="week-tag">THIS WEEK</span>
+  <h2>Best Sellers</h2>
+
+  <div class="best-grid">
+
+    <!-- ITEM -->
+    <div class="best-item">
+      <img src="assets/imgs/furniture/product/product1.png">
+      <div>
+        <h4>Stylish Grey Chair</h4>
+        <p class="price">USD 66.00</p>
+        <div class="stars">
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="best-item">
+      <img src="assets/imgs/furniture/product/product3.png">
+      <div>
+        <h4>Chair Pillow</h4>
+        <p class="price">USD 66.00</p>
+        <div class="stars">
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="best-item">
+      <img src="assets/imgs/furniture/product/product4.png">
+      <div>
+        <h4>Alexander Roll Sofa</h4>
+        <p class="price">USD 66.00</p>
+        <div class="stars">
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="best-item">
+      <img src="assets/imgs/furniture/product/product5.png">
+      <div>
+        <h4>Wooden Chair</h4>
+        <p class="price">USD 66.00</p>
+        <div class="stars">
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="best-item">
+      <img src="assets/imgs/furniture/product/product6.png">
+      <div>
+        <h4>Chair Pillow</h4>
+        <p class="price">USD 66.00</p>
+        <div class="stars">
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="best-item">
+      <img src="assets/imgs/furniture/product/product7.png">
+      <div>
+        <h4>Seater Gray Sofa</h4>
+        <p class="price">USD 66.00</p>
+        <div class="stars">
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i><i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<section class="recent-blog">
+
+  <span class="blog-tag">READ BLOG</span>
+  <h2>Recent Blog</h2>
+
+  <div class="blog-grid">
+
+    <!-- BLOG 1 -->
+    <div class="blog-card">
+
+      <div class="blog-content">
+        <span class="blog-cat">Chair Design</span>
+
+        <p class="blog-meta">By Alex Manie &nbsp;&nbsp; 07 jan, 2024</p>
+
+        <h3>Arrangement That's Nearly Perfect.</h3>
+
+        <a href="#" class="blog-arrow">›</a>
+      </div>
+
+      <div class="blog-img">
+        <img src="assets\imgs\furniture\blog\blog-image1.jpg">
+      </div>
+
+    </div>
+
+    <!-- BLOG 2 -->
+    <div class="blog-card">
+
+      <div class="blog-content">
+        <span class="blog-cat">Sofa Design</span>
+
+        <p class="blog-meta">By Alex Manie &nbsp;&nbsp; 07 jan, 2024</p>
+
+        <h3>Eworkstation Arrangement That's</h3>
+
+        <a href="#" class="blog-arrow">›</a>
+      </div>
+
+      <div class="blog-img">
+        <img src="assets\imgs\furniture\blog\blog-image2.jpg">
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<section class="cta-section">
+
+  <div class="cta-card blue">
+    <h3>Exclusive offers for you</h3>
+    <p>Get weekly deals, valuable health information and more.</p>
+
+    <a href="#" class="cta-btn">SIGN UP →</a>
+  </div>
+
+  <div class="cta-card green">
+    <h3>Join Our Community</h3>
+    <p>Get weekly deals, valuable health information and more.</p>
+
+    <a href="#" class="cta-btn">JOIN FREE NOW →</a>
+  </div>
+
+  <div class="cta-card pink">
+    <h3>Get our FREE app Now!</h3>
+    <p>Get weekly deals, valuable health information and more.</p>
+
+    <div class="store-buttons">
+      <img src="https://png.pngtree.com/png-clipart/20230916/original/pngtree-google-play-app-icon-vector-png-image_12256664.png">
+      <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-app-store-logo-png-image_6315845.png">
+    </div>
+  </div>
+
+</section>
+
+<footer class="site-footer">
+
+  <div class="footer-inner">
+
+    <!-- ABOUT -->
+    <div class="footer-col">
+      <h2 class="footer-logo">ADDINA</h2>
+
+      <p>
+        It helps designers plan out where the content will sit,
+        the content to be written and approved.
+      </p>
+
+      <div class="socials">
+        <span><i class="fab fa-facebook-f"></i></span>
+        <span><i class="fab fa-twitter"></i></span>
+        <span><i class="fab fa-linkedin-in"></i></span>
+        <span><i class="fab fa-instagram"></i></span>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#">Log In</a>
+      <a href="#">Wishlist</a>
+      <a href="#">Return Policy</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Shopping FAQs</a>
+    </div>
+
+    <!-- COMPANY -->
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      <a href="#">Pages</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact us</a>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-col contact">
+      <h4>Contact</h4>
+
+      <p>4517 Washington Ave.<br>Manchester, Kentucky 39495</p>
+
+      <p><strong>711-2880 Nulla St.</strong></p>
+
+      <p><strong>+964 742 44 763</strong><br>
+        Mon – Sat: 9 AM – 5 PM
+      </p>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+
+    <p>© All Copyright 2024 by Addina</p>
+
+    <div class="payments">
+      <img src="assets/imgs/payoneer.png">
+      <img src="assets/imgs/mastercard.png">
+      <img src="assets/imgs/paypal.png">
+    </div>
+
+    <p>Terms & Condition | Privacy Policy</p>
+
+  </div>
+
+</footer>
+
+  <script src="script.js"></script>
+</body>
+<script>
+  document.querySelectorAll('[data-background]').forEach(el => {
+    el.style.backgroundImage = `url(${el.dataset.background})`;
+  });
+</script>
+<script>
+const end = new Date().getTime() + 5*24*60*60*1000;
+
+setInterval(()=>{
+
+let now = new Date().getTime();
+let diff = end - now;
+
+let d = Math.floor(diff/(1000*60*60*24));
+let h = Math.floor((diff%(1000*60*60*24))/(1000*60*60));
+let m = Math.floor((diff%(1000*60*60))/(1000*60));
+let s = Math.floor((diff%(1000*60))/1000);
+
+document.getElementById("days").innerHTML=d;
+document.getElementById("hours").innerHTML=h;
+document.getElementById("mins").innerHTML=m;
+document.getElementById("secs").innerHTML=s;
+
+},1000);
+</script>
+</html>
